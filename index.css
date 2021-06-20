@@ -1,0 +1,140 @@
+#navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:transparent ;
+}
+
+ul{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+    letter-spacing: 1px;
+    color: white;
+    white-space: nowrap
+}
+
+ul li a:hover{
+    border-bottom:3px solid white;
+}
+
+.header{
+    padding: 20px;
+    height: 100vh;
+    background: url(https://www.emeraldgrouppublishing.com/sites/default/files/image/covid-cells.jpg) no-repeat center;
+    background-size: cover ;
+    position: relative;
+
+}
+
+.header h1{
+    margin:0;
+    font-weight:900;
+    font-size:3em;
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+.content{
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+.b1r1{
+    display: flex;
+	color: white;
+	padding: 100px 150px 150px 100px;
+	position: center;
+	background: linear-gradient( #000000,#3282b8,#3282b8,#000000);
+}
+
+.b1r1 h1{
+    margin:0;
+    font-weight:500;
+    font-size:2em;
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+    font-family:verdana;
+}
+
+.b1r1 p{
+    margin:0;
+    font-weight:900;
+    font-size:1em;
+    text-align:center;
+    color:white;
+    padding-top:30px;
+    font-family:verdana;
+}
+
+.c1{
+    display: flex;
+	color: white;
+	padding: 100px 150px 150px 100px;
+	position: center;
+	background: linear-gradient( #000000,#6930c3,#6930c3,#000000);
+    
+}
+
+.c1 h1{
+    margin:0;
+    font-weight:500;
+    font-size:2em;
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+    font-family:verdana;
+}
+
+.c1 p{
+    margin:0;
+    font-weight:900;
+    font-size:1em;
+    text-align:center;
+    color:white;
+    padding-top:30px;
+    font-family:verdana;
+}
+
+.flex{
+    display: flex;
+    color:white;
+    background:black;
+    padding-right:3%;
+    padding-left:3%;
+    position:center;
+}
+
+.flex-child{
+    flex:1;
+}
+
+.flex--vertical{
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+.flex-child{
+    padding-left:3%;
+    padding-right:3%;
+    min-width:100%;
+}
